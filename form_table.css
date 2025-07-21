@@ -1,0 +1,76 @@
+/* Tampilan latar belakang lembut */
+body {
+  background: linear-gradient(to bottom right, #f3f4f6, #dce3f0);
+  font-family: 'Segoe UI', sans-serif;
+  padding-top: 30px;
+  margin: 0;
+}
+
+/* Judul dan subjudul */
+h1, h2 {
+  text-align: center;
+  color: #333;
+  font-weight: 600;
+}
+
+/* Kotak putih di tengah */
+.container {
+  background-color: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  max-width: 850px;
+  margin: auto;
+}
+
+/* Input form */
+.form-control {
+  border-radius: 10px;
+  border: 1px solid #ced4da;
+  padding: 10px;
+}
+
+/* Tombol utama */
+button.btn-primary {
+  background-color: #6c63ff;
+  border: none;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+  font-weight: bold;
+}
+
+button.btn-primary:hover {
+  background-color: #4e47d4;
+}
+
+/* Tabel rapi */
+table {
+  margin-top: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.table th, .table td {
+  text-align: center;
+  vertical-align: middle;
+  padding: 12px;
+}
+
+/* Responsif */
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 20px 15px;
+  }
+
+  h1, h2 {
+    font-size: 1.5rem;
+  }
+
+  .form-label {
+    font-size: 0.95rem;
+  }
+
+  .table {
+    font-size: 0.9rem;
+  }
+}
