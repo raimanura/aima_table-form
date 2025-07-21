@@ -1,4 +1,4 @@
-/* Tampilan latar belakang lembut */
+/*Tampilan latar belakang*/
 body {
   background: linear-gradient(to bottom right, #f3f4f6, #dce3f0);
   font-family: 'Segoe UI', sans-serif;
@@ -13,7 +13,7 @@ h1, h2 {
   font-weight: 600;
 }
 
-/* Kotak putih di tengah */
+/* Kotak putih */
 .container {
   background-color: white;
   padding: 30px;
@@ -56,7 +56,6 @@ table {
   padding: 12px;
 }
 
-/* Responsif */
 @media screen and (max-width: 768px) {
   .container {
     padding: 20px 15px;
